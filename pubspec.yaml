@@ -1,15 +1,15 @@
 name: cp949
 # SYNC: with README#Installation
 # SYNC: with CHANGELOG
-version: 1.2.1
+version: 1.2.2
 description: CP949 Encoder/Decoder
 environment:
   # SYNC: with CI config when sdk support range is changed.
-  sdk: ">=2.17.6 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 homepage: https://github.com/jjangga0214/dart-cp949
 repository: https://github.com/jjangga0214/dart-cp949
 issue_tracker: https://github.com/jjangga0214/dart-cp949/issues
 documentation: https://github.com/jjangga0214/dart-cp949
 dev_dependencies:
   # package:test v1.5.3 support sdk v2.1.0, and CI uses sdk v2.1.1 as a lower compatibility boundary
-  test: ">=1.5.3 <2.0.0"
+  test: ^1.21.6
